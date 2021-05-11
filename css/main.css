@@ -1,0 +1,19 @@
+button.active{
+    background-color: white !important;
+    color:black !important;
+}
+div.nav-pills > button.rb{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 0px;
+}
+button.hover:hover{
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+  }
+button.nav-link.hover:not(.active):hover{
+    background-color: #343a40 !important;
+    color: white !important;
+    cursor: pointer;
+  }
